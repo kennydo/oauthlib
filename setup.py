@@ -28,7 +28,7 @@ signals_require = ['blinker']
 requires = []
 
 setup(
-    name='oauthlib',
+    name='kedo-oauthlib',
     version=oauthlib.__version__,
     description='A generic, spec-compliant, thorough implementation of the OAuth request-signing logic',
     long_description=fread('README.rst'),
@@ -36,7 +36,7 @@ setup(
     author_email='idan@gazit.me',
     maintainer='Ib Lundgren',
     maintainer_email='ib.lundgren@gmail.com',
-    url='https://github.com/idan/oauthlib',
+    url='https://github.com/kennydo/oauthlib',
     platforms='any',
     license='BSD',
     packages=find_packages(exclude=('docs', 'tests', 'tests.*')),
